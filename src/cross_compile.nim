@@ -3,5 +3,14 @@
 
 import monocypher
 import puppy
+import zippy
+
+import puppy
+
+echo fetch(
+  "http://neverssl.com/",
+  headers = @[("User-Agent", "Nim 1.0")]
+)
 when isMainModule:
+  
   echo("Hello, World!")
